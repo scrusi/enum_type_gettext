@@ -2,6 +2,9 @@
 
 Generates Enumerated type modules that can be used as values and matched in code. Creates proper types so Dialyzer will be able to check bad calls.
 
+## Fork
+This is an experimental fork. Please refer to the original repository unless you are specifically interested in my experiments with Gettext.
+
 ## Why?
 
 Something we have often wanted in Elixir was an enumerated type. The benefits we wanted are:
