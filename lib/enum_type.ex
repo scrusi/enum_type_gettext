@@ -106,6 +106,7 @@ defmodule EnumType do
         @type t :: __MODULE__
 
         def value, do: unquote(value)
+        def translated, do: gettext(unquote(value))
         def upcase_value, do: String.upcase(value() |> to_string())
         def downcase_value, do: String.downcase(value() |> to_string())
         unquote(block)
